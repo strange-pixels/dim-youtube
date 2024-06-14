@@ -1,0 +1,15 @@
+/* Dim the entire page except the video player */
+ytd-mini-guide-renderer, #related, #comments, #above-the-fold, ytd-merch-shelf-renderer, #container.ytd-playlist-panel-renderer, #chat {
+    opacity: 0.1;
+    transition: opacity 0.3s ease;
+}
+
+/* Exclude the video player from dimming */
+.ytd-watch-flexy #primary.ytd-watch-flexy {
+    opacity: 1 !important;
+}
+
+/* Return elements to 100% opacity on hover */
+ytd-mini-guide-renderer:hover, #related:hover, #comments:hover, #above-the-fold:hover, ytd-merch-shelf-renderer:hover, #container.ytd-playlist-panel-renderer:hover, #chat:hover {
+    opacity: 1 !important;
+}
