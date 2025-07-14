@@ -1,5 +1,5 @@
 /* Dim the entire page except the video player */
-ytd-mini-guide-renderer, #related, #comments, #above-the-fold, ytd-merch-shelf-renderer, #container.ytd-playlist-panel-renderer, #chat, ytd-rich-metadata-row-renderer{
+ytd-mini-guide-renderer, #related, #comments, #above-the-fold, ytd-merch-shelf-renderer, #container.ytd-playlist-panel-renderer, #chat, ytd-rich-metadata-row-renderer, ytd-masthead{
     opacity: 0.1;
     transition: opacity 0.3s ease;
 }
@@ -10,6 +10,6 @@ ytd-mini-guide-renderer, #related, #comments, #above-the-fold, ytd-merch-shelf-r
 }
 
 /* Return elements to 100% opacity on hover */
-ytd-mini-guide-renderer:hover, #related:hover, #comments:hover, #above-the-fold:hover, ytd-merch-shelf-renderer:hover, #container.ytd-playlist-panel-renderer:hover, #chat:hover, ytd-rich-metadata-row-renderer:hover{
+ytd-mini-guide-renderer:hover, #related:hover, #comments:hover, #above-the-fold:hover, ytd-merch-shelf-renderer:hover, #container.ytd-playlist-panel-renderer:hover, #chat:hover, ytd-rich-metadata-row-renderer:hover, ytd-masthead:hover{
     opacity: 1 !important;
 }
